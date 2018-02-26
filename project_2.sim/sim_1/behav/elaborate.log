@@ -1,0 +1,19 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /media/parth/F/Parth/vivado/Vivado/2015.2/bin/unwrapped/lnx64.o/xelab -wto c772c1a21e4f4c11846c2ff7a514b22e --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot axi_controller_testbench_behav xil_defaultlib.axi_controller_testbench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.axi_controller_v1_1_M00_AXI(C_M_...
+Compiling module xil_defaultlib.axi_controller_v1_1(C_M00_AXI_AW...
+Compiling module xil_defaultlib.design_1_axi_controller_0_0
+Compiling module xil_defaultlib.s00_couplers_imp_O7FAN0
+Compiling module xil_defaultlib.design_1_axi_interconnect_0_1
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module xil_defaultlib.axi_controller_testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot axi_controller_testbench_behav
