@@ -196,9 +196,8 @@ module axi_controller_v1_1 #
 				else next=t_5;
 			end
 			t_6: begin
-				next<=t_6;
+				next=t_6;
 			end
-		default next<=t_0;
 		endcase
 	end
 	

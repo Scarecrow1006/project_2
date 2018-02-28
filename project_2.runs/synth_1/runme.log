@@ -17,15 +17,15 @@ Command: synth_design -top axi_controller_testbench -part xc7z020clg484-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
-WARNING: [Synth 8-2507] parameter declaration becomes local in axi_controller_v1_1_M00_AXI with formal parameter declaration list [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/6d39f373/hdl/axi_controller_v1_1_M00_AXI.v:198]
+WARNING: [Synth 8-2507] parameter declaration becomes local in axi_controller_v1_1_M00_AXI with formal parameter declaration list [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/08d4316e/hdl/axi_controller_v1_1_M00_AXI.v:198]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 950.398 ; gain = 171.562 ; free physical = 200 ; free virtual = 13150
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 950.406 ; gain = 171.562 ; free physical = 815 ; free virtual = 11980
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'axi_controller_testbench' [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/new/axi_controller_testbench.v:30]
 INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 INFO: [Synth 8-638] synthesizing module 'design_1' [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/bd/design_1/hdl/design_1.v:13]
 INFO: [Synth 8-638] synthesizing module 'design_1_axi_controller_0_0' [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/bd/design_1/ip/design_1_axi_controller_0_0/synth/design_1_axi_controller_0_0.v:56]
-INFO: [Synth 8-638] synthesizing module 'axi_controller_v1_1' [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/6d39f373/hdl/axi_controller_v1_1.v:4]
+INFO: [Synth 8-638] synthesizing module 'axi_controller_v1_1' [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/08d4316e/hdl/axi_controller_v1_1.v:4]
 	Parameter t_0 bound to: 3'b000 
 	Parameter t_1 bound to: 3'b001 
 	Parameter t_2 bound to: 3'b010 
@@ -43,7 +43,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_controller_v1_1' [/media/parth/F/Pa
 	Parameter C_M00_AXI_WUSER_WIDTH bound to: 1 - type: integer 
 	Parameter C_M00_AXI_RUSER_WIDTH bound to: 1 - type: integer 
 	Parameter C_M00_AXI_BUSER_WIDTH bound to: 1 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_controller_v1_1_M00_AXI' [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/6d39f373/hdl/axi_controller_v1_1_M00_AXI.v:4]
+INFO: [Synth 8-638] synthesizing module 'axi_controller_v1_1_M00_AXI' [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/08d4316e/hdl/axi_controller_v1_1_M00_AXI.v:4]
 	Parameter t_0 bound to: 3'b000 
 	Parameter t_1 bound to: 3'b001 
 	Parameter t_2 bound to: 3'b010 
@@ -68,11 +68,13 @@ INFO: [Synth 8-638] synthesizing module 'axi_controller_v1_1_M00_AXI' [/media/pa
 	Parameter INIT_WRITE bound to: 2'b01 
 	Parameter INIT_READ bound to: 2'b10 
 	Parameter INIT_COMPARE bound to: 2'b11 
-INFO: [Synth 8-155] case statement is not full and has no default [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/6d39f373/hdl/axi_controller_v1_1_M00_AXI.v:336]
-INFO: [Synth 8-155] case statement is not full and has no default [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/6d39f373/hdl/axi_controller_v1_1_M00_AXI.v:397]
-INFO: [Synth 8-226] default block is never used [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/6d39f373/hdl/axi_controller_v1_1_M00_AXI.v:744]
-INFO: [Synth 8-256] done synthesizing module 'axi_controller_v1_1_M00_AXI' (1#1) [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/6d39f373/hdl/axi_controller_v1_1_M00_AXI.v:4]
-INFO: [Synth 8-256] done synthesizing module 'axi_controller_v1_1' (2#1) [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/6d39f373/hdl/axi_controller_v1_1.v:4]
+INFO: [Synth 8-155] case statement is not full and has no default [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/08d4316e/hdl/axi_controller_v1_1_M00_AXI.v:398]
+WARNING: [Synth 8-3848] Net compare_done in module/entity axi_controller_v1_1_M00_AXI does not have driver. [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/08d4316e/hdl/axi_controller_v1_1_M00_AXI.v:228]
+WARNING: [Synth 8-3848] Net ERROR in module/entity axi_controller_v1_1_M00_AXI does not have driver. [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/08d4316e/hdl/axi_controller_v1_1_M00_AXI.v:49]
+WARNING: [Synth 8-3848] Net start_single_burst_read in module/entity axi_controller_v1_1_M00_AXI does not have driver. [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/08d4316e/hdl/axi_controller_v1_1_M00_AXI.v:224]
+INFO: [Synth 8-256] done synthesizing module 'axi_controller_v1_1_M00_AXI' (1#1) [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/08d4316e/hdl/axi_controller_v1_1_M00_AXI.v:4]
+INFO: [Synth 8-155] case statement is not full and has no default [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/08d4316e/hdl/axi_controller_v1_1.v:168]
+INFO: [Synth 8-256] done synthesizing module 'axi_controller_v1_1' (2#1) [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/08d4316e/hdl/axi_controller_v1_1.v:4]
 INFO: [Synth 8-256] done synthesizing module 'design_1_axi_controller_0_0' (3#1) [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/bd/design_1/ip/design_1_axi_controller_0_0/synth/design_1_axi_controller_0_0.v:56]
 WARNING: [Synth 8-350] instance 'axi_controller_0' of module 'design_1_axi_controller_0_0' requires 42 connections, but only 40 given [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/bd/design_1/hdl/design_1.v:213]
 INFO: [Synth 8-638] synthesizing module 'design_1_axi_interconnect_0_1' [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/bd/design_1/hdl/design_1.v:337]
@@ -93,7 +95,7 @@ WARNING: [Synth 8-3848] Net RRESP in module/entity axi_controller_testbench does
 WARNING: [Synth 8-3848] Net RVALID in module/entity axi_controller_testbench does not have driver. [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/new/axi_controller_testbench.v:66]
 INFO: [Synth 8-256] done synthesizing module 'axi_controller_testbench' (8#1) [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/new/axi_controller_testbench.v:30]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1020.648 ; gain = 241.812 ; free physical = 145 ; free virtual = 13092
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1019.656 ; gain = 240.812 ; free physical = 759 ; free virtual = 11925
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -146,7 +148,7 @@ WARNING: [Synth 8-3295] tying undriven pin dut:m_axi_rresp[1] to constant 0 [/me
 WARNING: [Synth 8-3295] tying undriven pin dut:m_axi_rresp[0] to constant 0 [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/new/axi_controller_testbench.v:74]
 WARNING: [Synth 8-3295] tying undriven pin dut:m_axi_rvalid to constant 0 [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/new/axi_controller_testbench.v:74]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1020.648 ; gain = 241.812 ; free physical = 144 ; free virtual = 13092
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1019.656 ; gain = 240.812 ; free physical = 758 ; free virtual = 11924
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7z020clg484-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -160,16 +162,16 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1293.344 ; gain = 0.000 ; free physical = 198 ; free virtual = 12964
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1287.344 ; gain = 0.000 ; free physical = 609 ; free virtual = 11776
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1293.344 ; gain = 514.508 ; free physical = 204 ; free virtual = 12923
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1287.344 ; gain = 508.500 ; free physical = 581 ; free virtual = 11756
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1293.344 ; gain = 514.508 ; free physical = 204 ; free virtual = 12923
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1287.344 ; gain = 508.500 ; free physical = 581 ; free virtual = 11756
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -178,12 +180,12 @@ Applied set_property DONT_TOUCH = true for dut/design_1_i. (constraint file  aut
 Applied set_property DONT_TOUCH = true for dut/design_1_i/axi_controller_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for dut/design_1_i/axi_interconnect_0. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1293.344 ; gain = 514.508 ; free physical = 203 ; free virtual = 12923
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1287.344 ; gain = 508.500 ; free physical = 579 ; free virtual = 11754
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5544] ROM "axi_awaddr" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
-WARNING: [Synth 8-327] inferring latch for variable 'next_reg' [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/6d39f373/hdl/axi_controller_v1_1.v:170]
+WARNING: [Synth 8-327] inferring latch for variable 'next_reg' [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/08d4316e/hdl/axi_controller_v1_1.v:170]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1293.344 ; gain = 514.508 ; free physical = 219 ; free virtual = 12929
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1287.344 ; gain = 508.500 ; free physical = 559 ; free virtual = 11734
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -197,23 +199,17 @@ Start RTL Component Statistics
 Detailed RTL Component Info : 
 +---Adders : 
 	   2 Input     32 Bit       Adders := 2     
-	   2 Input     11 Bit       Adders := 2     
-	   2 Input      1 Bit       Adders := 1     
 +---Registers : 
 	               32 Bit    Registers := 2     
-	               11 Bit    Registers := 2     
 	                3 Bit    Registers := 1     
-	                2 Bit    Registers := 1     
-	                1 Bit    Registers := 17    
+	                1 Bit    Registers := 8     
 +---Muxes : 
 	   2 Input     16 Bit        Muxes := 1     
 	   4 Input     16 Bit        Muxes := 1     
 	   6 Input     16 Bit        Muxes := 1     
 	   2 Input      3 Bit        Muxes := 5     
-	   6 Input      2 Bit        Muxes := 1     
-	   4 Input      1 Bit        Muxes := 3     
-	   2 Input      1 Bit        Muxes := 5     
-	   8 Input      1 Bit        Muxes := 3     
+	   8 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 3     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -225,27 +221,22 @@ Module axi_controller_v1_1_M00_AXI
 Detailed RTL Component Info : 
 +---Adders : 
 	   2 Input     32 Bit       Adders := 2     
-	   2 Input     11 Bit       Adders := 2     
-	   2 Input      1 Bit       Adders := 1     
 +---Registers : 
 	               32 Bit    Registers := 2     
-	               11 Bit    Registers := 2     
-	                2 Bit    Registers := 1     
-	                1 Bit    Registers := 17    
+	                1 Bit    Registers := 8     
 +---Muxes : 
 	   2 Input     16 Bit        Muxes := 1     
 	   4 Input     16 Bit        Muxes := 1     
 	   6 Input     16 Bit        Muxes := 1     
-	   6 Input      2 Bit        Muxes := 1     
-	   4 Input      1 Bit        Muxes := 3     
-	   2 Input      1 Bit        Muxes := 5     
 	   8 Input      1 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 3     
 Module axi_controller_v1_1 
 Detailed RTL Component Info : 
 +---Registers : 
 	                3 Bit    Registers := 1     
 +---Muxes : 
 	   2 Input      3 Bit        Muxes := 5     
+	   8 Input      1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
 ---------------------------------------------------------------------------------
@@ -258,15 +249,15 @@ BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1293.344 ; gain = 514.508 ; free physical = 218 ; free virtual = 12929
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1287.344 ; gain = 508.500 ; free physical = 585 ; free virtual = 11760
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5544] ROM "inst/axi_controller_v1_1_M00_AXI_inst/axi_awaddr" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1293.344 ; gain = 514.508 ; free physical = 218 ; free virtual = 12929
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1287.344 ; gain = 508.500 ; free physical = 585 ; free virtual = 11760
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1293.344 ; gain = 514.508 ; free physical = 218 ; free virtual = 12929
+Finished Parallel Reinference  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1287.344 ; gain = 508.500 ; free physical = 585 ; free virtual = 11760
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -277,16 +268,16 @@ Report RTL Partitions:
 Start Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1293.344 ; gain = 514.508 ; free physical = 203 ; free virtual = 12914
+Finished Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1287.344 ; gain = 508.500 ; free physical = 569 ; free virtual = 11745
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1293.344 ; gain = 514.508 ; free physical = 203 ; free virtual = 12914
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1287.344 ; gain = 508.500 ; free physical = 569 ; free virtual = 11745
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1293.344 ; gain = 514.508 ; free physical = 203 ; free virtual = 12914
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1287.344 ; gain = 508.500 ; free physical = 569 ; free virtual = 11745
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
@@ -294,10 +285,10 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1293.344 ; gain = 514.508 ; free physical = 169 ; free virtual = 12868
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1287.344 ; gain = 508.500 ; free physical = 527 ; free virtual = 11701
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1293.344 ; gain = 514.508 ; free physical = 169 ; free virtual = 12868
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1287.344 ; gain = 508.500 ; free physical = 527 ; free virtual = 11701
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -308,7 +299,6 @@ Report RTL Partitions:
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-3332] Sequential element (\inst/axi_controller_v1_1_M00_AXI_inst/read_index_reg[0] ) is unused and will be removed from module design_1_axi_controller_0_0.
 INFO: [Synth 8-3332] Sequential element (\inst/axi_controller_v1_1_M00_AXI_inst/axi_awaddr_reg[31] ) is unused and will be removed from module design_1_axi_controller_0_0.
 INFO: [Synth 8-3332] Sequential element (\inst/axi_controller_v1_1_M00_AXI_inst/axi_awaddr_reg[30] ) is unused and will be removed from module design_1_axi_controller_0_0.
 INFO: [Synth 8-3332] Sequential element (\inst/axi_controller_v1_1_M00_AXI_inst/axi_awaddr_reg[29] ) is unused and will be removed from module design_1_axi_controller_0_0.
@@ -359,10 +349,11 @@ INFO: [Synth 8-3332] Sequential element (\inst/axi_controller_v1_1_M00_AXI_inst/
 INFO: [Synth 8-3332] Sequential element (\inst/axi_controller_v1_1_M00_AXI_inst/axi_wdata_reg[3] ) is unused and will be removed from module design_1_axi_controller_0_0.
 INFO: [Synth 8-3332] Sequential element (\inst/axi_controller_v1_1_M00_AXI_inst/axi_wdata_reg[2] ) is unused and will be removed from module design_1_axi_controller_0_0.
 INFO: [Synth 8-3332] Sequential element (\inst/axi_controller_v1_1_M00_AXI_inst/axi_wdata_reg[1] ) is unused and will be removed from module design_1_axi_controller_0_0.
+INFO: [Synth 8-3332] Sequential element (\inst/axi_controller_v1_1_M00_AXI_inst/axi_arvalid_reg ) is unused and will be removed from module design_1_axi_controller_0_0.
 INFO: [Synth 8-3332] Sequential element (\inst/axi_controller_v1_1_M00_AXI_inst/axi_araddr_reg[0] ) is unused and will be removed from module design_1_axi_controller_0_0.
 INFO: [Synth 8-3332] Sequential element (\inst/axi_controller_v1_1_M00_AXI_inst/axi_araddr_reg[1] ) is unused and will be removed from module design_1_axi_controller_0_0.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1293.344 ; gain = 514.508 ; free physical = 150 ; free virtual = 12849
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1288.352 ; gain = 509.508 ; free physical = 511 ; free virtual = 11685
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -423,14 +414,14 @@ WARNING: [Synth 8-3295] tying undriven pin \dut/design_1_i :m_axi_rresp[1] to co
 WARNING: [Synth 8-3295] tying undriven pin \dut/design_1_i :m_axi_rresp[0] to constant 0
 WARNING: [Synth 8-3295] tying undriven pin \dut/design_1_i :m_axi_rvalid to constant 0
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1293.344 ; gain = 514.508 ; free physical = 150 ; free virtual = 12849
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1288.352 ; gain = 509.508 ; free physical = 511 ; free virtual = 11685
 ---------------------------------------------------------------------------------
-CRITICAL WARNING: [Synth 8-3352] multi-driven net inst/next[2] with 1st driver pin 'dut/design_1_i/axi_controller_0/inst/next_reg[2]__0/Q' [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/6d39f373/hdl/axi_controller_v1_1.v:104]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net inst/next[2] with 2nd driver pin 'dut/design_1_i/axi_controller_0/inst/next_reg[2]/Q' [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/6d39f373/hdl/axi_controller_v1_1.v:170]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net inst/next[1] with 1st driver pin 'dut/design_1_i/axi_controller_0/inst/next_reg[1]__0/Q' [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/6d39f373/hdl/axi_controller_v1_1.v:104]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net inst/next[1] with 2nd driver pin 'dut/design_1_i/axi_controller_0/inst/next_reg[1]/Q' [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/6d39f373/hdl/axi_controller_v1_1.v:170]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net inst/next[0] with 1st driver pin 'dut/design_1_i/axi_controller_0/inst/next_reg[0]__0/Q' [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/6d39f373/hdl/axi_controller_v1_1.v:104]
-CRITICAL WARNING: [Synth 8-3352] multi-driven net inst/next[0] with 2nd driver pin 'dut/design_1_i/axi_controller_0/inst/next_reg[0]/Q' [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/6d39f373/hdl/axi_controller_v1_1.v:170]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst/next[2] with 1st driver pin 'dut/design_1_i/axi_controller_0/inst/next_reg[2]__0/Q' [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/08d4316e/hdl/axi_controller_v1_1.v:104]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst/next[2] with 2nd driver pin 'dut/design_1_i/axi_controller_0/inst/next_reg[2]/Q' [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/08d4316e/hdl/axi_controller_v1_1.v:170]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst/next[1] with 1st driver pin 'dut/design_1_i/axi_controller_0/inst/next_reg[1]__0/Q' [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/08d4316e/hdl/axi_controller_v1_1.v:104]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst/next[1] with 2nd driver pin 'dut/design_1_i/axi_controller_0/inst/next_reg[1]/Q' [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/08d4316e/hdl/axi_controller_v1_1.v:170]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst/next[0] with 1st driver pin 'dut/design_1_i/axi_controller_0/inst/next_reg[0]__0/Q' [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/08d4316e/hdl/axi_controller_v1_1.v:104]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst/next[0] with 2nd driver pin 'dut/design_1_i/axi_controller_0/inst/next_reg[0]/Q' [/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.srcs/sources_1/ipshared/user.org/axi_controller_v1_1/08d4316e/hdl/axi_controller_v1_1.v:170]
 
 Report Check Netlist: 
 +------+------------------+-------+---------+-------+------------------+
@@ -442,7 +433,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1293.344 ; gain = 514.508 ; free physical = 150 ; free virtual = 12849
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1288.352 ; gain = 509.508 ; free physical = 511 ; free virtual = 11685
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -455,13 +446,13 @@ Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-115] binding instance 'i_0' in module 'axi_controller_testbench' to reference 'design_1_wrapper' which has no pins
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1293.344 ; gain = 514.508 ; free physical = 150 ; free virtual = 12849
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1288.352 ; gain = 509.508 ; free physical = 511 ; free virtual = 11685
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Start Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1293.344 ; gain = 514.508 ; free physical = 150 ; free virtual = 12849
+Start Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1288.352 ; gain = 509.508 ; free physical = 511 ; free virtual = 11685
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1293.344 ; gain = 514.508 ; free physical = 150 ; free virtual = 12849
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1288.352 ; gain = 509.508 ; free physical = 511 ; free virtual = 11685
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -477,51 +468,50 @@ Report Cell Usage:
 +------+--------+------+
 |      |Cell    |Count |
 +------+--------+------+
-|1     |CARRY4  |     5|
-|2     |LUT1    |     9|
-|3     |LUT2    |    15|
-|4     |LUT3    |    17|
-|5     |LUT4    |     9|
-|6     |LUT5    |     7|
-|7     |LUT6    |    24|
-|8     |MUXCY_L |    60|
-|9     |XORCY   |    62|
-|10    |FDRE    |   121|
-|11    |FDSE    |     1|
-|12    |LD      |     3|
+|1     |CARRY4  |     2|
+|2     |LUT1    |     6|
+|3     |LUT2    |     2|
+|4     |LUT3    |    10|
+|5     |LUT4    |     1|
+|6     |LUT5    |     2|
+|7     |LUT6    |     2|
+|8     |MUXCY_L |    29|
+|9     |XORCY   |    30|
+|10    |FDRE    |    57|
+|11    |LD      |     3|
 +------+--------+------+
 
 Report Instance Areas: 
 +------+-------------------------------------------+------------------------------+------+
 |      |Instance                                   |Module                        |Cells |
 +------+-------------------------------------------+------------------------------+------+
-|1     |top                                        |                              |   333|
-|2     |  dut                                      |design_1_wrapper              |   333|
-|3     |    design_1_i                             |design_1                      |   333|
-|4     |      axi_controller_0                     |design_1_axi_controller_0_0   |   333|
-|5     |        inst                               |axi_controller_v1_1           |   332|
-|6     |          axi_controller_v1_1_M00_AXI_inst |axi_controller_v1_1_M00_AXI   |   320|
+|1     |top                                        |                              |   144|
+|2     |  dut                                      |design_1_wrapper              |   144|
+|3     |    design_1_i                             |design_1                      |   144|
+|4     |      axi_controller_0                     |design_1_axi_controller_0_0   |   144|
+|5     |        inst                               |axi_controller_v1_1           |   143|
+|6     |          axi_controller_v1_1_M00_AXI_inst |axi_controller_v1_1_M00_AXI   |   130|
 |7     |      axi_interconnect_0                   |design_1_axi_interconnect_0_1 |     0|
 +------+-------------------------------------------+------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1293.344 ; gain = 514.508 ; free physical = 150 ; free virtual = 12849
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1288.352 ; gain = 509.508 ; free physical = 511 ; free virtual = 11685
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 6 critical warnings and 45 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1293.344 ; gain = 123.281 ; free physical = 150 ; free virtual = 12849
-Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1293.344 ; gain = 514.508 ; free physical = 150 ; free virtual = 12849
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1288.352 ; gain = 123.289 ; free physical = 511 ; free virtual = 11685
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1288.352 ; gain = 509.508 ; free physical = 511 ; free virtual = 11685
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 130 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 64 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 19 instances were transformed.
-  (MUXCY,XORCY) => CARRY4: 16 instances
+  A total of 11 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 8 instances
   LD => LDCE: 3 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-88 Infos, 101 Warnings, 6 Critical Warnings and 0 Errors encountered.
+87 Infos, 104 Warnings, 6 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1293.344 ; gain = 403.980 ; free physical = 149 ; free virtual = 12848
-report_utilization: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.12 . Memory (MB): peak = 1325.359 ; gain = 0.000 ; free physical = 148 ; free virtual = 12847
-INFO: [Common 17-206] Exiting Vivado at Tue Feb 27 03:43:11 2018...
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1288.352 ; gain = 398.980 ; free physical = 512 ; free virtual = 11686
+report_utilization: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.12 . Memory (MB): peak = 1320.367 ; gain = 0.000 ; free physical = 510 ; free virtual = 11684
+INFO: [Common 17-206] Exiting Vivado at Thu Mar  1 04:15:54 2018...

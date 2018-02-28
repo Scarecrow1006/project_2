@@ -1,0 +1,7 @@
+Running: xsim.dir/axi_controller_testbench_time_synth/xsimk -simmode gui -wdb axi_controller_testbench_time_synth.wdb -simrunnum 0 -socket 49240
+Design successfully loaded
+Design Loading Memory Usage: 95564 KB (Peak: 97472 KB)
+Design Loading CPU Usage: 40 ms
+Simulation completed
+Simulation Memory Usage: 173396 KB (Peak: 234832 KB)
+Simulation CPU Usage: 60 ms

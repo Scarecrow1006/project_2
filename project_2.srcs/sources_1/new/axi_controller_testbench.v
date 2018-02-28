@@ -128,8 +128,9 @@ module axi_controller_testbench();
 
 	initial begin
 		#0000 RESETN<=1'b0;
-		#0100 RESETN<=1'b1;
-		#0000 INIT_AXI_TRANS<=1'b1;
+		#0000 INIT_AXI_TRANS<=1'b0;
+		#0090 RESETN<=1'b1;
+		#0010 INIT_AXI_TRANS<=1'b1;
 		#0900 $stop;
 	end
 
