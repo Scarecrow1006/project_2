@@ -7,6 +7,6 @@
 source /media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.hw/webtalk/labtool_webtalk.tcl -notrace
 
     while executing
-"webtalk_transmit -clientid 1539752231 -regid "211454876_0_0_965" -xml /media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.hw/webtalk/usage_sta..."
-    (file "/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.hw/webtalk/labtool_webtalk.tcl" line 26)
-INFO: [Common 17-206] Exiting Webtalk at Wed Feb 28 05:03:44 2018...
+"webtalk_transmit -clientid 3527318519 -regid "211454876_0_0_965" -xml /media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.hw/webtalk/usage_sta..."
+    (file "/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.hw/webtalk/labtool_webtalk.tcl" line 27)
+INFO: [Common 17-206] Exiting Webtalk at Tue Mar 20 03:16:32 2018...

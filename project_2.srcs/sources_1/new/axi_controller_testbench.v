@@ -1,11 +1,4 @@
 `timescale 1ns / 1ps
-`timescale 1ns / 1ps
-`timescale 1ns / 1ps
-`timescale 1ns / 1ps
-`timescale 1ns / 1ps
-`timescale 1ns / 1ps
-`timescale 1ns / 1ps
-`timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
 // Engineer: 
@@ -29,10 +22,10 @@
 
 module axi_controller_testbench();
 	
-	reg CLK;
-	reg RESETN;
+	/*reg CLK;*/
+	reg ARESETN;
 	reg INIT_AXI_TRANS;
-	wire [31:0]ARADDR;
+	/*wire [31:0]ARADDR;
 	wire [1:0]ARBURST;
 	wire [3:0]ARCACHE;
 	wire [0:0]ARID;
@@ -68,68 +61,76 @@ module axi_controller_testbench();
 	wire WLAST;
 	reg WREADY;
 	wire [3:0]WSTRB;
-	wire WVALID;
+	wire WVALID;*/
 
 
-	design_1_wrapper dut(
+	/*design_1_wrapper dut(
 		.m00_axi_aclk(CLK),
 		.m00_axi_aresetn(RESETN),
 		.m00_axi_init_axi_txn(INIT_AXI_TRANS),
-		.m_axi_araddr(ARADDR),
-		.m_axi_arburst(ARBURST),
-		.m_axi_arcache(ARCACHE),
-		.m_axi_arid(ARID),
-		.m_axi_arlen(ARLEN),
-		.m_axi_arlock(ARLOCK),
-		.m_axi_arprot(ARPROT),
-		.m_axi_arqos(ARQOS),
-		.m_axi_arready(ARREADY),
-		.m_axi_arsize(ARSIZE),
-		.m_axi_arvalid(ARVALID),
-		.m_axi_awaddr(AWADDR),
-		.m_axi_awburst(AWBURST),
-		.m_axi_awcache(AWCACHE),
-		.m_axi_awid(AWID),
-		.m_axi_awlen(AWLEN),
-		.m_axi_awlock(AWLOCK),
-		.m_axi_awprot(AWPROT),
-		.m_axi_awqos(AWQOS),
-		.m_axi_awready(AWREADY),
-		.m_axi_awsize(AWSIZE),
-		.m_axi_awvalid(AWVALID),
-		.m_axi_bid(BID),
-		.m_axi_bready(BREADY),
-		.m_axi_bresp(BRESP),
-		.m_axi_bvalid(BVALID),
-		.m_axi_rdata(RDATA),
-		.m_axi_rid(RID),
-		.m_axi_rlast(RLAST),
-		.m_axi_rready(RREADY),
-		.m_axi_rresp(RRESP),
-		.m_axi_rvalid(RVALID),
-		.m_axi_wdata(WDATA),
-		.m_axi_wlast(WLAST),
-		.m_axi_wready(WREADY),
-		.m_axi_wstrb(WSTRB),
-		.m_axi_wvalid(WVALID)
-	);
+		.M00_AXI_araddr(ARADDR),
+		.M00_AXI_arburst(ARBURST),
+		.M00_AXI_arcache(ARCACHE),
+		.M00_AXI_arid(ARID),
+		.M00_AXI_arlen(ARLEN),
+		.M00_AXI_arlock(ARLOCK),
+		.M00_AXI_arprot(ARPROT),
+		.M00_AXI_arqos(ARQOS),
+		.M00_AXI_arready(ARREADY),
+		.M00_AXI_arsize(ARSIZE),
+		.M00_AXI_arvalid(ARVALID),
+		.M00_AXI_awaddr(AWADDR),
+		.M00_AXI_awburst(AWBURST),
+		.M00_AXI_awcache(AWCACHE),
+		.M00_AXI_awid(AWID),
+		.M00_AXI_awlen(AWLEN),
+		.M00_AXI_awlock(AWLOCK),
+		.M00_AXI_awprot(AWPROT),
+		.M00_AXI_awqos(AWQOS),
+		.M00_AXI_awready(AWREADY),
+		.M00_AXI_awsize(AWSIZE),
+		.M00_AXI_awvalid(AWVALID),
+		.M00_AXI_bid(BID),
+		.M00_AXI_bready(BREADY),
+		.M00_AXI_bresp(BRESP),
+		.M00_AXI_bvalid(BVALID),
+		.M00_AXI_rdata(RDATA),
+		.M00_AXI_rid(RID),
+		.M00_AXI_rlast(RLAST),
+		.M00_AXI_rready(RREADY),
+		.M00_AXI_rresp(RRESP),
+		.M00_AXI_rvalid(RVALID),
+		.M00_AXI_wdata(WDATA),
+		.M00_AXI_wlast(WLAST),
+		.M00_AXI_wready(WREADY),
+		.M00_AXI_wstrb(WSTRB),
+		.M00_AXI_wvalid(WVALID)
+	);*/
 
-	initial begin
+	/*initial begin
 		#0000 AWREADY<=1'b1;
 		#0000 WREADY<=1'b1;
 		#0300 AWREADY<=1'b0;
 		#0100 AWREADY<=1'b1;
-	end
+	end*/
 
-	initial begin
+	/*initial begin
 		#0000 CLK=1'b0;
 		forever #0050 CLK<=~CLK; 
-	end
+	end*/
 
+	wire [53:0] mio;
+
+	design_1_wrapper dut(
+		.MIO(mio),
+		.m00_axi_init_axi_txn(INIT_AXI_TRANS),
+		.m00_axi_aresetn(ARESETN)
+	);
+	
 	initial begin
-		#0000 RESETN<=1'b0;
+		#0000 ARESETN<=1'b0;
 		#0000 INIT_AXI_TRANS<=1'b0;
-		#0090 RESETN<=1'b1;
+		#0090 ARESETN<=1'b1;
 		#0010 INIT_AXI_TRANS<=1'b1;
 		#0900 $stop;
 	end

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1519857926">
-  <File Type="VDS-TIMING-PB" Name="axi_controller_testbench_timing_summary_synth.pb"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="axi_controller_testbench_timing_summary_synth.rpt"/>
-  <File Type="RDS-DCP" Name="axi_controller_testbench.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="axi_controller_testbench_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="axi_controller_testbench_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="axi_controller_testbench_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="axi_controller_testbench.vds"/>
-  <File Type="PA-TCL" Name="axi_controller_testbench.tcl"/>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1521843326">
+  <File Type="VDS-TIMING-PB" Name="design_1_wrapper_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="design_1_wrapper_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="design_1_wrapper.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="design_1_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="design_1_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="design_1_wrapper_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="design_1_wrapper.vds"/>
+  <File Type="PA-TCL" Name="design_1_wrapper.tcl"/>
   <File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
   <File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_1/sources.xml"/>
   <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
@@ -27,28 +27,30 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/axi_controller_testbench.v">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/bd/design_1/ip/design_1_axi_controller_0_0/design_1_axi_controller_0_0.upgrade_log"/>
+    <File Path="$PSRCDIR/sources_1/bd/design_1/ip/design_1_axi_controller_0_1/design_1_axi_controller_0_1.upgrade_log"/>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="axi_controller_testbench"/>
+      <Option Name="TopModule" Val="design_1_wrapper"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
     <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/constraints.xdc"/>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2015"/>
-    <Step Id="synth_design"/>
+    <Step Id="synth_design">
+      <Option Id="FlattenHierarchy">0</Option>
+    </Step>
   </Strategy>
 </GenRun>

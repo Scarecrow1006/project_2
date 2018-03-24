@@ -1,0 +1,32 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Sat Mar 24 03:47:44 2018
+| Host         : cristopher running 64-bit Ubuntu 16.04.1 LTS
+| Command      : report_drc
+------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 1
+
+2. REPORT DETAILS
+-----------------
+PLIO-7#1 Warning
+Placement Constraints Check for IO constraints  
+An IO Bus MIO[53:0] with more than one IO standard is found. Components associated with this bus are:  MIO[53] of IOStandard LVCMOS18; MIO[52] of IOStandard LVCMOS18; MIO[51] of IOStandard LVCMOS18; MIO[50] of IOStandard LVCMOS18; MIO[49] of IOStandard LVCMOS18; MIO[48] of IOStandard LVCMOS18; MIO[47] of IOStandard LVCMOS18; MIO[46] of IOStandard LVCMOS18; MIO[45] of IOStandard LVCMOS18; MIO[44] of IOStandard LVCMOS18; MIO[43] of IOStandard LVCMOS18; MIO[42] of IOStandard LVCMOS18; MIO[41] of IOStandard LVCMOS18; MIO[40] of IOStandard LVCMOS18; MIO[39] of IOStandard LVCMOS18; MIO[38] of IOStandard LVCMOS18; MIO[37] of IOStandard LVCMOS18; MIO[36] of IOStandard LVCMOS18; MIO[35] of IOStandard LVCMOS18; MIO[34] of IOStandard LVCMOS18; MIO[33] of IOStandard LVCMOS18; MIO[32] of IOStandard LVCMOS18; MIO[31] of IOStandard LVCMOS18; MIO[30] of IOStandard LVCMOS18; MIO[29] of IOStandard LVCMOS18; MIO[28] of IOStandard LVCMOS18; MIO[27] of IOStandard LVCMOS18; MIO[26] of IOStandard LVCMOS18; MIO[25] of IOStandard LVCMOS18; MIO[24] of IOStandard LVCMOS18; MIO[23] of IOStandard LVCMOS18; MIO[22] of IOStandard LVCMOS18; MIO[21] of IOStandard LVCMOS18; MIO[20] of IOStandard LVCMOS18; MIO[19] of IOStandard LVCMOS18; MIO[18] of IOStandard LVCMOS18; MIO[17] of IOStandard LVCMOS18; MIO[16] of IOStandard LVCMOS18; MIO[15] of IOStandard LVCMOS33; MIO[14] of IOStandard LVCMOS33; MIO[13] of IOStandard LVCMOS33; MIO[12] of IOStandard LVCMOS33; MIO[11] of IOStandard LVCMOS33; MIO[10] of IOStandard LVCMOS33; MIO[9] of IOStandard LVCMOS33; MIO[8] of IOStandard LVCMOS33; MIO[7] of IOStandard LVCMOS33; MIO[6] of IOStandard LVCMOS33; MIO[5] of IOStandard LVCMOS33; MIO[4] of IOStandard LVCMOS33; MIO[3] of IOStandard LVCMOS33; MIO[2] of IOStandard LVCMOS33; MIO[1] of IOStandard LVCMOS33; MIO[0] of IOStandard LVCMOS33;
+Related violations: <none>
+
+

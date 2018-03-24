@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# 
+# Start of session at: Wed Mar 21 03:30:43 2018
+# Process ID: 15131
+# Log file: /media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.sdk/webtalk/webtalk.log
+# Journal file: /media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

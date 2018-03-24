@@ -1,0 +1,15 @@
+03:30:14 INFO  : Processing command line option -hwspec /media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.sdk/design_1_wrapper.hdf.
+03:30:19 INFO  : Launching XSDB server: xsdb -n -s /media/parth/F/Parth/vivado/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+03:30:26 INFO  : XSDB server has started successfully.
+04:29:19 INFO  : Launching XSDB server: xsdb -n -s /media/parth/F/Parth/vivado/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+04:29:24 INFO  : XSDB server has started successfully.
+04:29:28 INFO  : Processing command line option -hwspec /media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.sdk/design_1_wrapper.hdf.
+04:29:30 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+04:29:30 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1521673092000,  Project:1521582929000
+04:29:30 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from /media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.sdk/design_1_wrapper.hdf.
+04:29:31 INFO  : Copied contents of /media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.sdk/design_1_wrapper.hdf into /design_1_wrapper_hw_platform_0/system.hdf.
+04:29:36 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+04:29:36 INFO  : Clearing existing target manager status.
+04:29:43 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+04:29:43 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+04:29:46 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

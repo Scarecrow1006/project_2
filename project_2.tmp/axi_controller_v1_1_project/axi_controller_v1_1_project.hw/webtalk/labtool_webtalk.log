@@ -7,6 +7,6 @@
 source /media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.tmp/axi_controller_v1_1_project/axi_controller_v1_1_project.hw/webtalk/labtool_webtalk.tcl -notrace
 
     while executing
-"webtalk_transmit -clientid 1471035395 -regid "211454876_0_0_965" -xml /media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.tmp/axi_controller_v..."
+"webtalk_transmit -clientid 1823355835 -regid "211454876_0_0_965" -xml /media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.tmp/axi_controller_v..."
     (file "/media/parth/F/Parth/vivado/vivado_proj/project_2/project_2.tmp/axi_controller_v1_1_project/axi_controller_v1_1_project.hw/webtalk/labtool_webtalk.tcl" line 26)
-INFO: [Common 17-206] Exiting Webtalk at Wed Feb 28 18:59:58 2018...
+INFO: [Common 17-206] Exiting Webtalk at Fri Mar 23 00:45:44 2018...
